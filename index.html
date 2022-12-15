@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116680583-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-116680583-1');
+    </script>
+    <meta charset="UTF-8">
+    <title> محمدرضا عموری | بذار من برات گوگل کنم </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="MSSmartTagsPreventParsing" content="True"/>
+    <meta content="برای آدم‌هایی که از سوال هایی که با یک گوگل می شه در موردش به جواب رسید، خسته هستن"
+          name="description"/>
+    <meta content="گوگل, محمدرضا عموری, سرچ, google" name="keywords"/>
+
+    <link href="assets/images/favicon.png" type="image/png" rel="icon"/>
+    <link title="LMGTFY" href="lmgtfy.xml" type="application/opensearchdescription+xml" rel="search"/>
+
+    <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/bundle.js" type="text/javascript"></script>
+    <script src="assets/js/script.js" type="text/javascript"></script>
+    <script src="assets/js/clipboard.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css" media="screen" title="stylesheet"/>
+</head>
+
+<body>
+<div id="instructions">
+    <p>
+     کسی به جای گوگل کردن از شما سوال پرسیده؟ چیزی که باید گوگل می کرد رو بنویسید، کلیک کنید و لینکی که تولید می
+        شه رو براش بفرستین
+        (:
+    </p>
+</div>
+<div class="main">
+    <div class="logo">
+        <img id="logo" src="assets/images/logo.png" alt="Logo"/>
+    </div>
+    <form>
+        <div class="input-search">
+            <input type="text" value="" title="Google Search" size="55" class="text"
+                   placeholder="بذار من برات Google کنم">
+            <img src="assets/images/search.svg" alt="search">
+        </div>
+        <div class="buttons-search">
+            <div class="button_wrapper">
+                <div class="inner">
+                    <input type="button" value="Google Search" rel="localize[search_button]" id="search">
+                </div>
+            </div>
+            <div class="button_wrapper">
+                <div class="inner">
+                    <input type="button" value="I'm Feeling Lucky" rel="localize[lucky_button]" id="lucky">
+                </div>
+            </div>
+        </div>
+    </form>
+    <div id="link_placeholder"></div>
+    <div id="link">
+        <div class="close"></div>
+        <div class="box">
+            <input class="link copyable" readonly="readonly" id="myInput" type="text"/>
+            <div class="buttons">
+                <div class="tooltip">
+                    <button onclick="myFunction()">
+                        کپی کردن آدرس
+                    </button>
+                </div>
+                <button onclick="openInNewTab()">برو به این لینک</button>
+                <button id="short" onclick="shortLink()">لینک کوتاه</button>
+            </div>
+        </div>
+    </div>
+</div>
+<img id="fake_mouse" class="c3" src="assets/images/mouse_arrow.png" alt="Mouse"/>
+
+<div id="footer">
+    <div class="right">
+        <a href="mailto:admin@lmgtfy.me.uk?body=Nice&amp;subject=I%20love%20LMGTFY%21" rel="localize[contact]">نویسنده
+            اصلی</a>
+        <a href="http://jadi.net" rel="localize[advertise]">جادی.نت</a>
+    </div>
+
+    <div class="left">
+        <p id="copyright"> <span><a href="https://mramoori.ir">محمدرضا عموری</a> </span> | 2023 </p>
+        <a href="https://github.com/mr-amoori/bmbgk/" target="_blank" class="github">
+            <img src="assets/images/github.svg" alt="">
+        </a>
+    </div>
+</div>
+
+
+</body>
+
+</html>
