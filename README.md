@@ -1,5 +1,5 @@
 # About
-This is simply a lmgtfy concept in Persian, hosted at http://bmbgk.ir
+This is simply a lmgtfy concept in Persian, hosted at https://mr-amoori.github.io/bmbgk or http://bmbgk.ir
 
 # Note
 originally forked from re-lmgtfy but commpletely replace by another script
